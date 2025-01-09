@@ -33,6 +33,3 @@ To Display an image, we use `imshow`. The `waitkey(0)` makes sure to pause the w
   cv2.waitKey(0)
   cv2.destroyAllWindows()
 ```
-
-
-#OpenCV
