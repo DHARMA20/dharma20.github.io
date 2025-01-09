@@ -5,13 +5,13 @@ description: "Some short description of your blog can go here." # This will show
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
 email: "dharmamst@gmail.com"
-twitter:
+twitter_username:
   username: "@dharma_m_s"
   url: "https://x.com/dharma_m_s"
-github:
+github_username:
   username: "DHARMA20"
   url: "https://github.com/DHARMA20"
-linkedin:
+linkedin_username:
   username: "Dharma M S"
   url: "https://www.linkedin.com/in/dharma-ms/"
 
