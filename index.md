@@ -1,8 +1,8 @@
-👋 Welcome to My AI Learning Journey!
+👋 Welcome to My Blog!
 
-Hi there! I’m Dharma, a passionate explorer diving into the exciting world of Artificial Intelligence and Deep Learning. This blog is all about learning, experimenting, and sharing my adventures in AI—one step at a time.
+Hi there! I’m Dharma, a curious mind with a passion for learning and sharing knowledge. This is my little corner of the internet where I explore ideas, build projects from scratch, and document my journey one post at a time.
 
-Whether you're a beginner like me or just curious about how machines learn, you'll find code, insights, and a sprinkle of fun here. Join me as I break down concepts, build projects from scratch, and make the complex world of AI a little more approachable.
+Here, you’ll find tutorials, “Today I Learned” posts, and plenty of coding experiments—whether it's about AI, deep learning, or anything else that sparks curiosity. My goal is to break down concepts, share insights, and make learning fun for everyone.
 
-Let’s learn and grow together! 🚀✨
+Thanks for stopping by, and let’s learn and grow together! 🚀✨
 
