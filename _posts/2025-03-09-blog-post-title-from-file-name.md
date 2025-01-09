@@ -1,7 +1,9 @@
 ## TIL-OpenCV basics
----
+
 Today I used OpenCV for the first time to extract table from an image.
 OpenCV (Open Source Computer Vision Library) is useful for computer vision tasks.
+
+---
 
 ### Installation
 To install OpenCV package in python using pip. Paste the following command in the terminal.
