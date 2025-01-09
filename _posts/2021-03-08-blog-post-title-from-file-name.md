@@ -1,32 +1,37 @@
-## Blog Post Title From First Header
+## TIL-OpenCV basics
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
-
-If the file does not start with a header, then the post title will be derived from the filename.
-
-This is a sample blog post. You can talk about all sorts of fun things here.
+Today I used OpenCV for the first time to extract table from an image.
+OpenCV (Open Source Computer Vision Library) is useful for computer vision tasks.
 
 ---
 
-### This is a header
-
-#### Some T-SQL Code
-
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
+### Installation
+To install OpenCV package in python using pip. Paste the following command in the terminal.
+```python
+pip install opencv-python
 ```
 
-#### Some PowerShell Code
+### Reading a file
 
-```powershell
-Write-Host "This is a powershell Code block";
+```python
+import cv2
 
-# There are many other languages you can use, but the style has to be loaded first
+#open and read a file
+image = cv2.imread("....\image.jpg")
+```
 
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
+### Saving an image
+
+It will save the image in the given path with as `filename.jpg`.
+```python
+cv2.imwrite('...\filename.jpg',image)
+```
+
+### Displaying an image
+
+To Display an image, we use `imshow`. The `waitkey(0)` makes sure to pause the window with displayed image and waits till any key is pressed. After any key is pressed, `destroyAllWindows` cleans up all the resources allocated for displaying the image.
+```python
+  cv2.imshow('Image',image)
+  cv2.waitKey(0)
+  cv2.destroyAllWindows()
 ```
