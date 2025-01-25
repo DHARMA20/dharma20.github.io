@@ -10,7 +10,8 @@ Operator is a research preview from OpenAI, employing a *Computer-Using Agent (C
 
 ## How it works?
 It works by identifying what is on the screen and what task it must accomplish. Then reasons using *chain-of-thought* framework and determines what actions to take. And checks whether the tasks is accomplished and continues doing so till it completes the tasks.
-![openai-operator.png](https://github.com/DHARMA20/dharma20.github.io/blob/main/data/openai-operator.png)
+![data/openai-operator.png](https://github.com/DHARMA20/dharma20.github.io/blob/main/data/openai-operator.png)
+
 ### Perception
 Inputs are - Screenshots from the screen and Goal Task by user.
 Screenshots from the device screen are added to the model context and Goal task is defined by the user and given as input in text format. It just takes raw pixels rather than using web-specific APIs, which makes it useful across many websites. 
