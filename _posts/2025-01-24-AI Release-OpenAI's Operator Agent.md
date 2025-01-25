@@ -10,7 +10,7 @@ Operator is a research preview from OpenAI, employing a *Computer-Using Agent (C
 
 ## How it works?
 It works by identifying what is on the screen and what task it must accomplish. Then reasons using *chain-of-thought* framework and determines what actions to take. And checks whether the tasks is accomplished and continues doing so till it completes the tasks.
-[openai-operator-image](https://github.com/DHARMA20/dharma20.github.io/blob/main/data/openai-operator.png)
+![openai-operator](data/openai-operator.png)
 
 ### Perception
 Inputs are - Screenshots from the screen and Goal Task by user.
